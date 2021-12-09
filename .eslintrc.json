@@ -1,0 +1,33 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "eslint:recommended",
+    "plugin:vue/base",
+    "plugin:vue/strongly-recommended",
+    "plugin:vue/recommended",
+    "standard"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "plugins": [
+    "vue"
+  ],
+  "rules": {
+    "max-len": "off",
+    "linebreak-style": "off",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "vue/no-v-html": "off"
+  }
+}

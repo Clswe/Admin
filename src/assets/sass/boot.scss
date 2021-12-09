@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/brands.css";
+@import "~@fortawesome/fontawesome-free/css/regular.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+@import "~vue-toastification/src/scss/index.scss";
+@import "~vue-loading-overlay/dist/vue-loading.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-rendering: geometricPrecision;
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  max-width: 100%;
+
+  a {
+    border: none;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+}
+
+embed, video, iframe, iframe[style] {
+  max-width: 100%;
+  height: auto;
+}
